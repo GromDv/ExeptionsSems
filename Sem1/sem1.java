@@ -49,6 +49,8 @@ public class Main {
         }
         return res;
     }
+    // метод, принимающий в качестве аргументов два целочисленных массива, и возвращающий новый массив, 
+    // каждый элемент которого равен частному элементов двух входящих массивов в той же ячейке
     public static int[] method5(int[] arr1, int[] arr2) {
         int[] res = new int[arr1.length];
         if(arr1.length == arr2.length) {
